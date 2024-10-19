@@ -382,6 +382,7 @@ static ssize_t netSend(const octet_t *buf, int16_t  length, TimeInternal *time, 
 #if LWIP_PTP
 		time->seconds = p->time_sec;
 		time->nanoseconds = p->time_nsec;
+		// printf("netsend %u %u\n",p->time_sec,p->time_nsec);
 #else
 		/* TODO: use of loopback mode */
 		/*

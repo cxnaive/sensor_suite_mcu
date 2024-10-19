@@ -2,6 +2,8 @@
     "files.associations": {
         "main.h": "c",
         "cmsis_os.h": "c",
-        "ptpd.h": "c"
+        "ptpd.h": "c",
+        "socket.h": "c",
+        "compare": "c"
     }
 }

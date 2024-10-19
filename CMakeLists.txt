@@ -59,6 +59,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ptp/dep/startup.c
     ptp/dep/sys_time.c
     ptp/dep/timer.c
+    LWIP/App/radar_sync.c
 )
 
 # Add include paths
